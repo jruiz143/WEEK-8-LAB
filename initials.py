@@ -15,7 +15,7 @@ def get_initials():
     initials = "" #INITIALIZE EMPTY STRING TO COLLECT FIRST LETTER
     for word in words: #LOOP THROUGH EACH ELEMENT
         #APPEND UPPERCASE INITIAL TO INITIALS STRING
-        initials += word[0].upper() + '.' #INITIALS= INITIALS + WORD[0] + '.'
+        initials += word[0].upper() + '.' #FIRST LETTER IN INDEX O POSITION, CAPITALIZE, AND INCLUDE . AFTER
     
     # DISPLAY INITIALS
     print(initials)
