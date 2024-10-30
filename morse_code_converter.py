@@ -17,7 +17,7 @@ def text_to_morse():
 
     special_chars = [" ", ",", ".", "?"]
     numbers = "0123456789"
-    letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"#CAPITALIZE LETTERS
     
     # GET USER INPUT
     user_input = input("PLEASE ENTER TEXT TO CONVERT TO MORSE CODE: ")
