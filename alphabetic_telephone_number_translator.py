@@ -29,5 +29,5 @@ def translate_to_number(phone):
     return translated_number
 
 # GET USER INPUT 
-phone_number = input("Enter a 10-character phone number (XXX-XXX-XXXX): ")
-print("Translated phone number:", translate_to_number(phone_number))
+phone_number = input("ENTER A 10-CHARACTER TELEPHONE NUMBER (XXX-XXX-XXXX): ")
+print("THE TRANSLATED NUMBER INPUTTED:", translate_to_number(phone_number))
