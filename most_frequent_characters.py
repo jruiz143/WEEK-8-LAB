@@ -5,3 +5,8 @@
 def main():
   user_string = input("PLEASE ENTER A STRING OF CHARACTERS:)
   alphabet = ['ABCDEFGHIJKLMNOPQRSTUVWXYZ']
+  characters = alphabet.split()
+  print("THE MOST FREQUENT CHARACTER", )
+
+def character_count():
+
